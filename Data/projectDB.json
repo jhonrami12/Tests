@@ -1,0 +1,32 @@
+{
+    "uid":"uid del proyecto, campo propio",
+    "uidUser":1212,
+    "name": "",
+    "description": "description del proyecto",
+    "originSrc":"url del video blob storage public",
+    "renderedSrc" :"URL del video renderizado",
+    "completedAudioSrc" : "Url de Audio completo merged.",
+    "hasTranscribe" : true,
+    "hasTranslation" : true,
+    "hasDubbling" : true,
+    "mediaType": "audio | video",
+    "isArchived": false,
+    "isRemoved": false,
+    "audioBackgroud": 
+    {
+        "src":"Url del audio del Backgroud",
+        "valumen" :"54"
+    },
+    "localeOrigin": "en-US",
+    "localeTarget": "es-ES",    
+    "speakerVoices" : [
+        {
+            "speaker" : 1,
+            "speakerVoiceUID": "UID voz de Jorge"
+        },
+        {
+            "speaker" : "2",
+            "speakerVoiceUID": "UID voz de Alicia"
+        }
+    ]   
+}

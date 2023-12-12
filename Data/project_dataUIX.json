@@ -1,0 +1,123 @@
+{
+    "uid":"uid del proyecto, campo propio",
+    "uidUser":1212,
+    "name": "",
+    "description": "description del proyecto",
+    "originSrc":"url del video blob storage public",
+    "renderedSrc" :"URL del video renderizado",
+    "completedAudioSrc" : "Url de Audio completo merged.",
+    "hasTranscribe" : true,
+    "hasTranslation" : true,
+    "hasDubbling" : true,
+    "mediaType": "audio | video",
+    "isArchived": false,
+    "isRemoved": false,
+    "audioBackgroud": 
+    {
+        "src":"Url del audio del Backgroud",
+        "valumen" :"54"
+    },
+    "localeOrigin": "en-US",
+    "localeTarget": "es-ES",    
+    "speakerVoices" : [
+        {
+            "speaker" : 1,
+            "speakerVoiceUID": "UID voz de Jorge"
+        },
+        {
+            "speaker" : "2",
+            "speakerVoiceUID": "UID voz de Alicia"
+        }
+    ],
+    "recognizedPhrases":
+    [
+        {       
+            "uid":"Identificador de la section",
+            "channel": 0,
+            "speaker": 1,            
+            "offsetInTicks": 46000000.0,
+            "durationInTicks": 30000000.0,
+            "displayOriginal" :"OK, have a nice day. I'll see you later.",
+            "lexical": "ok have a nice day i'll see you later",
+            "itn": "ok have a nice day i'll see you later",
+            "maskedITN": "ok have a nice day i'll see you later",
+            "display": "OK, have a nice day. I'll see you later, Please",
+            "uidTranslate":"uid DB del translate",
+            "translatedPhrase" : {
+                "uid": "uid propio",
+                "localeTarget": "es",
+                "displayOriginal": "bien, tengas un buen dia, te veo luego de que vayas y regreses",
+                "display": "bien, que tengas un buen dia, te veo luego",
+                "audioSrc":"url del audio dublado",
+                "offsetInTicks": 46000000.0,   //Second version
+                "durationInTicks": 30000000.0,  //Second version
+                "ssmlConfiguration" : {
+                    "uidTP":"Uid del translatedPhrase",                    
+                    "emphasis": "level",
+                    "lexicon": "",
+                    "mstts": {
+                        "audioduration" :"",
+                        "silence": {
+                            "type": "",
+                            "value": ""
+                        }
+                    }                    
+                }
+            }
+        },
+        {       
+            "uid":"Identificador de la section",
+            "channel": 0,
+            "speaker": 2,            
+            "offsetInTicks": 96000000.0,
+            "durationInTicks": 20000000.0,
+            "displayOriginal" :"wait, wait, where are you going",
+            "lexical": "wait, wait, where are you going",
+            "itn": "wait, wait, where are you going",
+            "maskedITN": "wait, wait, where are you going",
+            "display": "wait, wait, where are you going",
+            "uidTranslate":"uid DB del translate",
+            "translatedPhrase" : {
+                "uid": "uid propio",
+                "localeTarget": "es",
+                "displayOriginal": "Espera un momento, donde vas a ir",
+                "display": "Espera un momento, donde vas a ir",
+                "audioSrc":"url del audio dublado",
+                "offsetInTicks": 46000000.0,   //Second version
+                "durationInTicks": 30000000.0,  //Second version
+                "ssmlConfiguration" : {
+                    "uidTP":"Uid del translatedPhrase",
+                    "break": {
+                        "strength":"",
+                        "time":""
+                    },
+                    "emphasis": "level",
+                    "lexicon": "",
+                    "mstts": {
+                        "expressAs" : {
+                            "style": "",
+                            "styledegree": "",
+                            "role": ""
+                        },
+                        "audioduration" :"",
+                        "silence": {
+                            "type": "",
+                            "value": ""
+                        }
+                    },
+                    "phoneme": {
+                        "alphabet": "",
+                        "ph":""
+                    },
+                    "prosody": {
+                        "pitch":"",
+                        "contour":"",
+                        "range":"",
+                        "rate":"",
+                        "volume":""
+                    }
+                }
+            }
+        }
+    ]
+}

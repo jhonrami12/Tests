@@ -1,0 +1,33 @@
+{
+    "uidTP":"Uid del translatedPhrase",
+    "uidProject": "uid del project",
+    "break": {
+        "strength":"",
+        "time":""
+    },
+    "emphasis": "level",
+    "lexicon": "",
+    "mstts": {
+        "expressAs" : {
+            "style": "",
+            "styledegree": "",
+            "role": ""
+        },
+        "audioduration" :"",
+        "silence": {
+            "type": "",
+            "value": ""
+        }
+    },
+    "phoneme": {
+        "alphabet": "",
+        "ph":""
+    },
+    "prosody": {
+        "pitch":"",
+        "contour":"",
+        "range":"",
+        "rate":"",
+        "volume":""
+    }
+}

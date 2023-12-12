@@ -1,0 +1,16 @@
+{       
+    "uid":"Identificador de la section",
+    "uidProject": "uid del project",
+    "order": 1,
+    "channel": 0,
+    "speaker": 1, 
+    "offsetInTicks": 46000000.0,
+    "durationInTicks": 30000000.0,
+    "displayOriginal" :"OK, have a nice day. I'll see you later.",
+    "lexical": "ok have a nice day i'll see you later",
+    "itn": "ok have a nice day i'll see you later",
+    "maskedITN": "ok have a nice day i'll see you later",
+    "display": "OK, have a nice day. I'll see you later, Please",
+    "uidTranslate":"uid DB del translate"    
+}  
+    

@@ -1,0 +1,10 @@
+{
+    "uid": "uid propio",
+    "uidProject": "uid del project",
+    "localeTarget": "es",
+    "displayOriginal": "bien, tengas un buen dia, te veo luego de que vayas y regreses",
+    "display": "bien, que tengas un buen dia, te veo luego",
+    "audioSrc":"url del audio dublado",
+    "offsetInTicks": 46000000.0,   //Second version
+    "durationInTicks": 30000000.0  //Second version
+}
